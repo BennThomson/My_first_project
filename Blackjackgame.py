@@ -61,6 +61,6 @@ def play_game():
 
     print(compare(user_score, computer_score))
 
-while input("You wanna restart the game: Type 'Y to yes or 'N' to no").lower() == "y":
+while input("You want to play the game: Type 'Y to yes or 'N' to no").lower() == "y":
     play_game()
 
